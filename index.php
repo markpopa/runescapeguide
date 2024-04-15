@@ -1,3 +1,11 @@
+<?php
+
+session_start();
+if (!isset($_SESSION['password']) || !isset($_SESSION['username'])) {
+    header("location: login.php");
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +22,7 @@
         <ul>
             <li><img src="logo.png" alt=""></li>
             <li><a href="index.php">Home</a></li>
+            <li><a href="login.php">Log In</a></li>
             <li><a href="quests.php">Quests</a></li>
             <li><a href="money.php">Money Making</a></li>
        </ul>
@@ -27,11 +36,12 @@
         From simple tasks like helping out in the kitchen to taking on legendary beasts, we've got guides and tips to make your journey smooth and enjoyable. So, grab your gear and get ready for some epic adventures!
         </p><br>
         <img src="Imp.webp"><br>
-        <h3>Simple Guide</h3>
+        <h3>Simple/Classic Guide</h3>
         <p>
         This website is designed with simplicity and minimalism in mind. 
         I've stripped away the clutter to provide you with a straightforward and easy-to-navigate OSRS F2P quest guide. 
         No unnecessary distractions, just the information you need to complete your quests efficiently.
+        I've also designed it to maintain a more classic/old-school look to fit the game! (Also mobile friendly!)
         </p><br>
         <img src="delrith.webp"><br>
         <h3>Effective F2P money making</h3>
@@ -43,5 +53,8 @@
         </p>
         <img src="lavadragon.webp">
     </main>
+    <footer>
+        <p>RuneScape Old School is trademarked by Jagex Limited. I do not own any of the contents used XD</p>
+    </footer>
 </body>
 </html>

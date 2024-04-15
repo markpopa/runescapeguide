@@ -1,0 +1,61 @@
+<?php
+
+session_start();
+
+$host = "localhost";
+$username = "bit_academy";
+$password = " ";
+$dbname = "runescape";
+$message = "";  
+
+try {  
+    $connect = new PDO("mysql:host=$host; dbname=$dbname", $username, $password);  
+    $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
+    
+    if (isset($_POST["login"])) {  
+        if (empty($_POST["username"]) || empty($_POST["password"])) {  
+            $message = 'All fields are required';  
+        } else {  
+            $query = "SELECT * FROM users WHERE username = :username AND password = :password";  
+            $statement = $connect->prepare($query);  
+            $statement->execute(array(  
+                'username' => $_POST["username"],  
+                'password' => $_POST["password"]  
+            ));  
+            $count = $statement->rowCount();  
+            if ($count > 0) {  
+                $_SESSION["password"] = $_POST['password'];
+                $_SESSION["username"] = $_POST["username"];
+                header("location:index.php");
+            } else {  
+                $message = 'Wrong Data. Invalid username/password combination';  
+            }  
+        }  
+    }  
+} catch (PDOException $error) {  
+    $message = $error->getMessage();  
+}  
+?>  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>  
+    <?php  
+    if (isset($message)) {  
+        echo '<h1>' . $message . '</h1>';  
+    }  
+    ?>  
+    <h3>Log In</h3><br/>  
+    <form class="login" method="post">
+        <input type="text" name="username" placeholder="Username"/>
+        <input type="password" name="password" placeholder="Password"/><br><br>
+        <input type="submit" name="login" value="Log In"/>
+    </form>  
+</body> 
+</html>
