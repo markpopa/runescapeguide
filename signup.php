@@ -18,6 +18,8 @@ try {
         
         if (empty($_POST["username"]) || empty($_POST["password"])) {  
             $message = 'All fields are required';  
+        } elseif (isset($_POST["username"]) || empty($_POST["password"])) {
+            $message = 'User banned';
         } else {
             $sql = "INSERT INTO users (username, password) 
             VALUES ('$user', '$pass')";
