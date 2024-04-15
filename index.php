@@ -5,6 +5,18 @@ if (!isset($_SESSION['password']) || !isset($_SESSION['username'])) {
     header("location: login.php");
 }
 
+$host = "localhost";
+$username = "bit_academy";
+$password = " ";
+$dbname = "runescape";
+
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo "Databasefout: " . $e->getMessage();
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +41,7 @@ if (!isset($_SESSION['password']) || !isset($_SESSION['username'])) {
     </nav>
 
     <main class="content">
+        <?php echo "<h2>Welcome $_SESSION[username]</h2>"?>
         <h3>Welcome to the Free 2 Play OSRS Quest Guide!!!</h3>
         <p>
         Welcome to our F2P OSRS questing hub! If you're diving into the world of Gielinor without a membership, you're in the right place. 
