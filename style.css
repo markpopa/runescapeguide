@@ -32,10 +32,13 @@ p {
     font-family: 'RuneScape Chat \'07', sans-serif;
     color: white;
     text-align: center;
+    width: 300px;
+    margin-left: 800px;
 }
 
 h1 {
     text-align: center;
+    background: linear-gradient(to left, tan, wheat);
 }
 
 .navbar ul {
@@ -61,3 +64,15 @@ h1 {
     float: left;
 }
 
+.navbar img {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+}
+
+.content img {
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    display: flex;
+}
