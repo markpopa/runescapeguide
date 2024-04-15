@@ -35,6 +35,7 @@ try {
             <li><img src="logo.png" alt=""></li>
             <li><a href="index.php">Home</a></li>
             <li><a href="login.php">Log In</a></li>
+            <li><a href="logout.php">Log Out</a></li>
             <li><a href="quests.php">Quests</a></li>
             <li><a href="money.php">Money Making</a></li>
        </ul>
