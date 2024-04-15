@@ -11,27 +11,24 @@ $message = "";
 try {  
     $connect = new PDO("mysql:host=$host; dbname=$dbname", $username, $password);  
     $connect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);  
-    
-    if (isset($_POST["login"])) {  
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        $user = $_POST['username'];
+        $pass = $_POST['password']; 
+        
         if (empty($_POST["username"]) || empty($_POST["password"])) {  
             $message = 'All fields are required';  
-        } else {  
-            $query = "SELECT * FROM users WHERE username = :username AND password = :password";  
-            $statement = $connect->prepare($query);  
-            $statement->execute(array(  
-                'username' => $_POST["username"],  
-                'password' => $_POST["password"]  
-            ));  
-            $count = $statement->rowCount();  
-            if ($count > 0) {  
-                $_SESSION["password"] = $_POST['password'];
-                $_SESSION["username"] = $_POST["username"];
-                header("location:index.php");
-            } else {  
-                $message = 'Wrong Data. Invalid username/password combination';  
-            }  
-        }  
-    }  
+        } else {
+            $sql = "INSERT INTO users (username, password) 
+            VALUES ('$user', '$pass')";
+            if ($connect->exec($sql)) {
+                echo "<h1>Sign Up Succesful</h1>";
+            } else {
+                echo "<h1>Sign Up error</h1>";
+            }
+
+        }
+    }
 } catch (PDOException $error) {  
     $message = $error->getMessage();  
 }  
@@ -51,12 +48,12 @@ try {
         echo '<h1>' . $message . '</h1>';  
     }  
     ?>  
-    <h3>Log In</h3><br/>  
-    <form class="login" method="post">
+    <h3>Sign Up</h3><br/>  
+    <form class="signup" action="signup.php" method="post">
         <input type="text" name="username" placeholder="Username"/>
         <input type="password" name="password" placeholder="Password"/><br><br>
-        <input type="submit" name="login" value="Log In"/><br>
-        <a href="signup.php">Click here to sign up!</a>
+        <button type="submit">Submit</button><br>
+        <a href="login.php">Log In</a>
     </form>  
 </body> 
 </html>
