@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'RuneScape Chat \'07';
+    src: url('RuneScape-Chat-07.woff2') format('woff2'),
+        url('RuneScape-Chat-07.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'RuneScape Chat Bold \'07';
+    src: url('RuneScape-Chat-Bold-07.woff2') format('woff2'),
+        url('RuneScape-Chat-Bold-07.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background: linear-gradient(to right, green, lightgreen);
+    font-family: 'RuneScape Chat \'07', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'RuneScape Chat Bold \'07', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: 'RuneScape Chat \'07', sans-serif;
+    color: white;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+
