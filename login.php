@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 
 $host = "localhost";
@@ -16,17 +15,24 @@ try {
         if (empty($_POST["username"]) || empty($_POST["password"])) {  
             $message = 'All fields are required';  
         } else {  
-            $query = "SELECT * FROM users WHERE username = :username AND password = :password";  
+            $query = "SELECT u.*, b.reason 
+                      FROM users u 
+                      LEFT JOIN banned b ON u.username = b.username 
+                      WHERE u.username = :username AND u.password = :password";  
             $statement = $connect->prepare($query);  
             $statement->execute(array(  
                 'username' => $_POST["username"],  
                 'password' => $_POST["password"]  
             ));  
-            $count = $statement->rowCount();  
-            if ($count > 0) {  
-                $_SESSION["password"] = $_POST['password'];
-                $_SESSION["username"] = $_POST["username"];
-                header("location:index.php");
+            $user = $statement->fetch(PDO::FETCH_ASSOC);
+            if ($user) {
+                if ($user['reason']) {
+                    $message = 'You are banned. Reason: ' . $user['reason'];
+                } else {
+                    $_SESSION["password"] = $_POST['password'];
+                    $_SESSION["username"] = $_POST["username"];
+                    header("location:index.php");
+                }
             } else {  
                 $message = 'Wrong Data. Invalid username/password combination';  
             }  
