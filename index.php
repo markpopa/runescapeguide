@@ -20,6 +20,11 @@
 
     <main>
         <h3>Welcome to the Free 2 Play OSRS Quest Guide!!!</h3>
+        <p>
+        Welcome to our F2P OSRS questing hub! If you're diving into the world of Gielinor without a membership, you're in the right place. 
+        Our website is all about helping you navigate through the exciting quests available in the Free-to-Play version of Old School RuneScape.
+        From simple tasks like helping out in the kitchen to taking on legendary beasts, we've got guides and tips to make your journey smooth and enjoyable. So, grab your gear and get ready for some epic adventures!
+        </p>
     </main>
 </body>
 </html>

@@ -17,8 +17,9 @@
 }
 
 body {
-    background: linear-gradient(to right, green, lightgreen);
+    background: linear-gradient(to right, tan, wheat);
     font-family: 'RuneScape Chat \'07', sans-serif;
+    margin: 0px;
 }
 
 h1, h2, h3 {
@@ -30,11 +31,33 @@ h1, h2, h3 {
 p {
     font-family: 'RuneScape Chat \'07', sans-serif;
     color: white;
-
+    text-align: center;
 }
 
 h1 {
     text-align: center;
 }
 
+.navbar ul {
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: dimgray;
+}
+
+.navbar li {
+    float: left;
+}
 
