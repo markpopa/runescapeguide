@@ -63,13 +63,9 @@ try {
     <h3>Killing Lava Dragons</h3>
     <p>This method is the one I have used the most and the method I used to get my first million!
         It is very profitable but at the same time VERY RISKY! Why? Well that's because you have to venture out 
-        pretty deep inside the wilderness. What's the wilderness you might ask? If you didn't know
-        the wilderness is an are on the map where PVP (Player vs Player combat) is enabled. If you die in this game you lose your items
-        and they remair at the place where you died. Unless a player kills you. If a player kills you inside of the wilderness, you lose most of your items and they get it.
-        Obviously to protect new players from getting detroyed by max lvl players, there is a system in place. Depending on your combat lvl and how deep you are in the wilderness,
-        players with a higher combat lvl than you cannot attack you. But if you venture out far enough, the combat lvl requirement for PVP will become lower meaning you are no longer protected
-    </p>
+        pretty deep inside the wilderness. The wilderness is an area on the map where PVP (Player vs Player combat) is enabled. If you die you lose your items.
+        That's why this method is risky. Each dragon drops lava dragon bones and black dragonhide wich together sell for almost 8k gp right now. But, there is a chance you get a rare drop,
+        like Onyx bolt tips! Wich currently sell for 100k!
 
-    
 </body>
 </html>
