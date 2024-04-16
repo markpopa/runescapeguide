@@ -50,10 +50,10 @@ try {
         From simple tasks like helping out in the kitchen to taking on legendary beasts, we've got guides and tips to make your journey smooth and enjoyable. So, grab your gear and get ready for some epic adventures!
         </p><br>
         <img src="Imp.webp"><br>
-        <h3>Simple/Classic Guide</h3>
+        <h3>Simple Guide</h3>
         <p>
         This website is designed with simplicity and minimalism in mind. 
-        I've stripped away the clutter to provide you with a straightforward and easy-to-navigate OSRS F2P quest guide. 
+        I've stripped away the clutter to provide you with a straightforward and easy-to-navigate OSRS F2P quest guide that also encourages exploring. 
         No unnecessary distractions, just the information you need to complete your quests efficiently.
         I've also designed it to maintain a more classic/old-school look to fit the game! (Also mobile friendly!)
         </p><br>
