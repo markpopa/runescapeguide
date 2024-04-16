@@ -37,6 +37,7 @@ try {
             <li><a href="logout.php">Log Out</a></li>
             <li><a href="quests.php">Quests</a></li>
             <li><a href="money.php">Money Making</a></li>
+            <li><a href="info.php">Map Info</a></li>
        </ul>
     </nav>
 

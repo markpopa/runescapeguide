@@ -1,6 +1,22 @@
 <?php 
 
 session_start();
+if (!isset($_SESSION['password']) || !isset($_SESSION['username'])) {
+    header("location: login.php");
+}
+
+$host = "localhost";
+$username = "bit_academy";
+$password = " ";
+$dbname = "runescape";
+
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    echo "Databasefout: " . $e->getMessage();
+}
+
 
 $host = "localhost";
 $username = "bit_academy";
@@ -40,10 +56,10 @@ try {
         <ul>
             <li><img src="logo.png" alt=""></li>
             <li><a href="index.php">Home</a></li>
-            <li><a href="login.php">Log In</a></li>
             <li><a href="logout.php">Log Out</a></li>
             <li><a href="quests.php">Quests</a></li>
             <li><a href="money.php">Money Making</a></li>
+            <li><a href="info.php">Map Info</a></li>
        </ul>
     </nav>
 
