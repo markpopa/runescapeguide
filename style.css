@@ -78,6 +78,13 @@ h1 {
     display: flex;
 }
 
+.gp img {
+    margin: 0 auto;
+    width: 120px;
+    height: auto;
+    display: flex;
+}
+
 .login {
     text-align: center;
 }
