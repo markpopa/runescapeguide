@@ -59,7 +59,6 @@ try {
         <p>
             Known for its vast white walls and towering castle, Falador exudes a sense of strength and tradition.
             This city is a central hub for mining and smithing activities, with the famous Mining Guild located just south of its walls. Falador also offers various shops, guilds, and quests for adventurers to undertake.
-            Remember 06/06/2006.
         </p>
         <img src="map/falador.png">
         <h3>Draynor Village</h3>
