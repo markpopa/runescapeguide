@@ -65,11 +65,6 @@ try {
         <p>For those seeking a more perilous adventure, the Wilderness beckons with its untamed wilderness and high-risk, high-reward gameplay. 
             This lawless region is fraught with danger, from aggressive monsters to rival players eager for PvP combat. The Wilderness offers unique resources, dungeons, and challenges for daring adventurers willing to brave its dangers.
         </p>
-        <h3>Edgeville</h3>
-        <p>
-        Nestled on the border of the Wilderness, Edgeville is a small town known for its proximity to danger and adventure. Despite its modest size, Edgeville serves as a popular hub for players venturing into the Wilderness or seeking respite from their perilous journeys.
-        The town features essential facilities such as banks, shops, and a furnace for smelting ores.
-        </p>
         <h3>Al Kharid</h3>
         <p>
         Located to the east of Lumbridge, Al Kharid is a desert city renowned for its bustling market and rich cultural heritage.
