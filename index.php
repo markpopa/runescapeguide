@@ -49,7 +49,7 @@ try {
         Our website is all about helping you navigate through the exciting quests available in the Free-to-Play version of Old School RuneScape.
         From simple tasks like helping out in the kitchen to taking on legendary beasts, we've got guides and tips to make your journey smooth and enjoyable. So, grab your gear and get ready for some epic adventures!
         </p><br>
-        <img src="Imp.webp"><br>
+        <img src="Quests.webp"><br>
         <h3>Simple Guide</h3>
         <p>
         This website is designed with simplicity and minimalism in mind. 
@@ -65,7 +65,7 @@ try {
         and might not even be worth it in the end. That's why I am going to share one of the most reliable
         and my most used method to make GP!
         </p>
-        <img src="lavadragon.webp">
+        <img src="Coins.webp">
     </main>
     <footer>
         <p>RuneScape Old School is trademarked by Jagex Limited. I do not own any of the contents used XD</p>
