@@ -80,8 +80,10 @@ try {
             This lawless region is fraught with danger, from aggressive monsters to rival players eager for PvP combat. The Wilderness offers unique resources, dungeons, and challenges for daring adventurers willing to brave its dangers.
         </p>
         <img src="map/wilderness.png">
-
     </main>
+    <footer>
+        <p>RuneScape Old School is trademarked by Jagex Limited. I do not own any of the contents used XD</p>
+    </footer>
     
 </body>
 </html>

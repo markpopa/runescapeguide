@@ -64,5 +64,8 @@ try {
         <input type="submit" name="login" value="Log In"/><br>
         <a href="signup.php">Click here to sign up!</a>
     </form>  
+    <footer>
+        <p>RuneScape Old School is trademarked by Jagex Limited. I do not own any of the contents used XD</p>
+    </footer>
 </body> 
 </html>

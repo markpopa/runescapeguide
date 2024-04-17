@@ -80,6 +80,8 @@ try {
         <?php } ?>
     </table>
     </main>
-    
+    <footer>
+        <p>RuneScape Old School is trademarked by Jagex Limited. I do not own any of the contents used XD</p>
+    </footer>
 </body>
 </html>
