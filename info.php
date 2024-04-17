@@ -41,7 +41,7 @@ try {
        </ul>
     </nav>
 
-    <main class="content">
+    <main class="map">
         <h3>Lumbridge</h3>
         <p>
             As one of the first places players encounter upon entering the world of Gielinor, Lumbridge serves as a hub for adventurers. Home to a castle, shops, banks, and various NPCs,

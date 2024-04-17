@@ -85,6 +85,13 @@ h1 {
     display: flex;
 }
 
+.map img {
+    margin: auto;
+    width: 300px;
+    height: auto;
+    display: flex;
+}
+
 .login {
     text-align: center;
 }
