@@ -63,7 +63,7 @@ try {
     <form class="login" method="post">
         <input type="text" name="username" placeholder="Username"/>
         <input type="password" name="password" placeholder="Password"/><br><br>
-        <input type="submit" name="login" value="Log In"/><br>
+        <input type="submit" name="login" id="login" value="Log In"/><br>
         <a href="signup.php">Click here to sign up!</a>
     </form>  
     </main>

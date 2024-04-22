@@ -52,7 +52,7 @@ try {
     <form class="signup" action="signup.php" method="post">
         <input type="text" name="username" placeholder="Username"/>
         <input type="password" name="password" placeholder="Password"/><br><br>
-        <button type="submit">Submit</button><br>
+        <input type="submit" name="signup" id="signup" value="Sign Up"/><br>
         <a href="login.php">Log In</a>
     </form>  
     </main>
