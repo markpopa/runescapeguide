@@ -25,8 +25,10 @@ $query->execute();
 
 foreach ($query as $quest) {
     $quest_name = $quest['quest_name'];
+    $quest_description = $quest['quest_description'];
     $quest_guide = $quest['quest_guide'];
     $quest_start = $quest['quest_start'];
+    $quest_reward = $quest['quest_reward'];
 }
 
 ?>
@@ -53,11 +55,14 @@ foreach ($query as $quest) {
 
     <h1><?php echo $quest_name; ?></h1>
 
+    <h3><?php echo $quest_description; ?></h3>
+
     <main class="content">
         <img src="<?php echo$quest_start; ?>">
         <p>
-            <?php echo $quest_guide;?>
+            <?php echo $quest_guide; ?>
         </p>
+        <img src="<?php echo$quest_reward; ?>">
     </main>
 </body>
 </html>
