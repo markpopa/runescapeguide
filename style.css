@@ -33,7 +33,6 @@
 .bodyquests {
     background: linear-gradient(to right, rgba(193, 149, 84, 0.7), rgba(193, 149, 84, 0.7)), url("background3.webp");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -81,7 +80,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), tan);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(193, 149, 84));
 }
 
 /* Paragraph Styles */

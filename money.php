@@ -28,8 +28,6 @@ try {
 </head>
 <body class="bodymoney">
     
-    <h1>Money Making</h1>
-
     <nav class="navbar">
         <ul>
             <li><img src="logo.png" alt=""></li>
@@ -41,6 +39,7 @@ try {
        </ul>
     </nav>
 
+    <h1>Money Making</h1>
 
     <main class="gp">
     <h2>Safe Methods</h2>
@@ -73,8 +72,5 @@ try {
     </p>
     <img src="lavadragon.webp">
     </main>
-    <footer>
-        <p>RuneScape Old School is trademarked by Jagex Limited. I do not own any of the contents used XD</p>
-    </footer>
 </body>
 </html>

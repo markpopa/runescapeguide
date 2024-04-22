@@ -49,9 +49,6 @@ try {
     <title>Quests</title>
 </head>
 <body class="bodyquests">
-
-    <h1>F2P Quest List</h1>
-
     <nav class="navbar">
         <ul>
             <li><img src="logo.png" alt=""></li>
@@ -62,6 +59,8 @@ try {
             <li><a href="info.php">Map Info</a></li>
        </ul>
     </nav>
+
+    <h1>F2P Quest List</h1>
 
     <main>
     <h2>Quests</h2>
@@ -80,8 +79,5 @@ try {
         <?php } ?>
     </table>
     </main>
-    <footer>
-        <p>RuneScape Old School is trademarked by Jagex Limited. I do not own any of the contents used XD</p>
-    </footer>
 </body>
 </html>

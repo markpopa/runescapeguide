@@ -28,8 +28,6 @@ try {
 </head>
 <body class="bodycontainer">
 
-    <h1>Old School Runescape F2P Quest Guide</h1>
-
     <nav class="navbar">
         <ul>
             <li><img src="logo.png" alt=""></li>
@@ -40,6 +38,8 @@ try {
             <li><a href="info.php">Map Info</a></li>
        </ul>
     </nav>
+
+    <h1>Old School Runescape F2P Quest Guide</h1>
 
     <main class="content">
         <?php echo "<h2>Welcome $_SESSION[username]</h2>"?>
@@ -67,8 +67,5 @@ try {
         </p>
         <img src="Coins.webp">
     </main>
-    <footer>
-        <p>RuneScape Old School is trademarked by Jagex Limited. I do not own any of the contents used XD</p>
-    </footer>
 </body>
 </html>

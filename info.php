@@ -28,8 +28,6 @@ try {
 </head>
 <body class="bodyinfo">
 
-    <h1>Map Info</h1>
-
     <nav class="navbar">
         <ul>
             <li><img src="logo.png" alt=""></li>
@@ -40,6 +38,8 @@ try {
             <li><a href="info.php">Map Info</a></li>
        </ul>
     </nav>
+
+    <h1>Map Info</h1>
 
     <main class="map">
         <h3>Lumbridge</h3>
@@ -80,9 +80,5 @@ try {
         </p>
         <img src="map/wilderness.png">
     </main>
-    <footer>
-        <p>RuneScape Old School is trademarked by Jagex Limited. I do not own any of the contents used XD</p>
-    </footer>
-    
 </body>
 </html>
