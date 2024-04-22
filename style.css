@@ -137,6 +137,8 @@ p {
 }
 
 input {
+    font-family: 'RuneScape Chat Bold \'07', sans-serif;
+    font-size: medium;
     color: white;
     border: none;
     padding: 12px;
