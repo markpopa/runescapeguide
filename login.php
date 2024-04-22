@@ -57,6 +57,8 @@ try {
         echo '<h1>' . $message . '</h1>';  
     }  
     ?>  
+    <div class="log-image"></div>
+    <main class="log">
     <h3>Log In</h3><br/>  
     <form class="login" method="post">
         <input type="text" name="username" placeholder="Username"/>
@@ -64,5 +66,6 @@ try {
         <input type="submit" name="login" value="Log In"/><br>
         <a href="signup.php">Click here to sign up!</a>
     </form>  
+    </main>
 </body> 
 </html>

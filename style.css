@@ -1,3 +1,4 @@
+/* Font Styles */
 @font-face {
     font-family: 'RuneScape Chat \'07';
     src: url('RuneScape-Chat-07.woff2') format('woff2'),
@@ -16,43 +17,58 @@
     font-display: swap;
 }
 
+/* Body Styles */
+.bod, .bodlog {
+    font-family: 'RuneScape Chat \'07', sans-serif;
+    margin: 0;
+}
+
 .bod {
     background: linear-gradient(to right, tan, wheat);
-    font-family: 'RuneScape Chat \'07', sans-serif;
-    margin: 0px;
 }
 
 .bodlog {
-    background-image: url("backlog.jpg");
-    font-family: 'RuneScape Chat \'07', sans-serif;
-    margin: 0px;
+    background-image: url("login.webp");
 }
 
+.bodlog a {
+    color: white;
+    padding: 15px;
+    display: block;
+}
+
+.log {
+    margin-top: 300px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+/* Heading Styles */
 h1, h2, h3 {
     font-family: 'RuneScape Chat Bold \'07', sans-serif;
     color: white;
     text-align: center;
 }
 
+h1 {
+    background: linear-gradient(to left, tan, wheat);
+}
+
+/* Paragraph Styles */
 p {
     font-family: 'RuneScape Chat \'07', sans-serif;
     color: white;
     text-align: center;
     width: 300px;
-    margin-left: auto ;
-    margin-right: auto;
+    margin: auto;
 }
 
-h1 {
-    text-align: center;
-    background: linear-gradient(to left, tan, wheat);
-}
-
+/* Navbar Styles */
 .navbar ul {
     list-style-type: none;
     background-color: black;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     overflow: hidden;
 }
 
@@ -77,35 +93,20 @@ h1 {
     padding: 5px;
 }
 
-.content img {
+/* Content Styles */
+.content img, .gp img, .map img {
     margin: 5px auto;
     width: 300px;
     height: auto;
     display: flex;
 }
 
-.gp img {
-    margin: 5px auto;
-    width: 120px;
-    height: auto;
-    display: flex;
-}
-
-.map img {
-    margin: 5px auto;
-    width: 300px;
-    height: auto;
-    display: flex;
-}
-
-.login {
+/* Login and Signup Styles */
+.login, .signup {
     text-align: center;
 }
 
-.signup {
-    text-align: center;
-}
-
+/* Footer Styles */
 footer {
     background-color: black;
     border: 1px solid black;
