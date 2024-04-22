@@ -24,14 +24,14 @@
 }
 
 .bodycontainer {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), tan), url("background2.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(193, 149, 84, 0.7)), url("background2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bodyquests {
-    background: linear-gradient(to right, rgba(193, 149, 84, 0.7), rgba(193, 149, 84, 0.7)), url("background3.jpg");
+    background: linear-gradient(to right, rgba(193, 149, 84, 0.7), rgba(193, 149, 84, 0.7)), url("background3.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@
 }
 
 .bodyinfo {
-    background: linear-gradient(to right, rgba(193, 149, 84, 0.7), rgba(193, 149, 84, 0.7)), url("background4.jpg");
+    background: linear-gradient(to right, rgba(193, 149, 84, 0.7), rgba(193, 149, 84, 0.7)), url("background6.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,18 +55,20 @@
     color: white;
 }
 
-.bodlog {
-    background-image: url("login.webp");
+.bodylog {
+    background-image: url("login.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
-.bodlog a {
+.bodylog a {
     color: white;
     padding: 15px;
     display: block;
 }
 
 .log {
-    margin-top: 300px;
+    margin-top: 600px;
     border: 1px solid black;
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -79,7 +81,7 @@ h1, h2, h3 {
 }
 
 h1 {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), wheat);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), tan);
 }
 
 /* Paragraph Styles */
