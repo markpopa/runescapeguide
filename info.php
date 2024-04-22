@@ -26,7 +26,7 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map Info</title>
 </head>
-<body class="bod">
+<body class="bodyinfo">
 
     <h1>Map Info</h1>
 

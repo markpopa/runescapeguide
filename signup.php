@@ -41,7 +41,7 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
-<body class="bodlog">  
+<body class="bodylog">  
     <?php  
     if (isset($message)) {  
         echo '<h1>' . $message . '</h1>';  

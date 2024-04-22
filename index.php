@@ -26,7 +26,7 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OSRS Questing Guide</title>
 </head>
-<body class="bod">
+<body class="bodycontainer">
 
     <h1>Old School Runescape F2P Quest Guide</h1>
 
