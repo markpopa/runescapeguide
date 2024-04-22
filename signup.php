@@ -36,13 +36,12 @@ try {
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
-<body>  
+<body class="bodlog">  
     <?php  
     if (isset($message)) {  
         echo '<h1>' . $message . '</h1>';  

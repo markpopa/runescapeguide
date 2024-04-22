@@ -48,7 +48,7 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quests</title>
 </head>
-<body>
+<body class="bod">
 
     <h1>F2P Quest List</h1>
 

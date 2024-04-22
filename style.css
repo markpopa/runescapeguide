@@ -16,8 +16,14 @@
     font-display: swap;
 }
 
-body {
+.bod {
     background: linear-gradient(to right, tan, wheat);
+    font-family: 'RuneScape Chat \'07', sans-serif;
+    margin: 0px;
+}
+
+.bodlog {
+    background-image: url("backlog.jpg");
     font-family: 'RuneScape Chat \'07', sans-serif;
     margin: 0px;
 }
