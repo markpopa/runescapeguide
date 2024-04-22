@@ -68,13 +68,13 @@ try {
         <tr>
             <th>Quest Name</th>
             <th>Description</a></th>
-            <th>Details</th>
+            <th>Guide</th>
         </tr>
         <?php foreach ($Query as $quests) { ?>
             <tr>
                 <td><?php echo $quests["quest_name"]; ?></td>
                 <td><?php echo $quests["quest_description"]; ?></td>
-                <td><a href='detail.php?id=<?php echo $quests['quest_id']; ?>'>View Details</a></td>
+                <td><a href='detail.php?id=<?php echo $quests['quest_id']; ?>'>View Guide</a></td>
             </tr>
         <?php } ?>
     </table>
