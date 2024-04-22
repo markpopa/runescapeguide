@@ -136,6 +136,14 @@ p {
     text-align: center;
 }
 
+.login input {
+    color: white;
+    border: none;
+    padding: 12px;
+    background: black;
+    appearance: none;
+}
+
 /* Footer Styles */
 footer {
     background-color: black;
