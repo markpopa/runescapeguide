@@ -31,7 +31,7 @@ try {
     <nav class="navbar">
         <ul>
             <li><img src="img/logo.png" alt=""></li>
-            <li><a href="img/index.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="logout.php">Log Out</a></li>
             <li><a href="quests.php">Quests</a></li>
             <li><a href="money.php">Money Making</a></li>

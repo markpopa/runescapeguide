@@ -1,8 +1,8 @@
 /* Font Styles */
 @font-face {
     font-family: 'RuneScape Chat \'07';
-    src: url('RuneScape-Chat-07.woff2') format('woff2'),
-        url('RuneScape-Chat-07.woff') format('woff');
+    src: url('fonts/RuneScape-Chat-07.woff2') format('woff2'),
+        url('fonts/RuneScape-Chat-07.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: 'RuneScape Chat Bold \'07';
-    src: url('RuneScape-Chat-Bold-07.woff2') format('woff2'),
-        url('RuneScape-Chat-Bold-07.woff') format('woff');
+    src: url('fonts/RuneScape-Chat-Bold-07.woff2') format('woff2'),
+        url('fonts/RuneScape-Chat-Bold-07.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -44,6 +44,11 @@
 
 .bodydetail h1 {
     background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 175, 60));
+}
+
+.bodydetail p {
+    font-size: large;
+    width: 500px;
 }
 
 .bodymoney {
