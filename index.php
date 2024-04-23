@@ -30,7 +30,7 @@ try {
 
     <nav class="navbar">
         <ul>
-            <li><img src="logo.png" alt=""></li>
+            <li><img src="img/logo.png" alt=""></li>
             <li><a href="index.php">Home</a></li>
             <li><a href="logout.php">Log Out</a></li>
             <li><a href="quests.php">Quests</a></li>
@@ -49,7 +49,7 @@ try {
         Our website is all about helping you navigate through the exciting quests available in the Free-to-Play version of Old School RuneScape.
         From simple tasks like helping out in the kitchen to taking on legendary beasts, we've got guides and tips to make your journey smooth and enjoyable. So, grab your gear and get ready for some epic adventures!
         </p><br>
-        <img src="Quests.webp"><br>
+        <img src="img/Quests.webp"><br>
         <h3>Simple Guide</h3>
         <p>
         This website is designed with simplicity and minimalism in mind. 
@@ -57,7 +57,7 @@ try {
         No unnecessary distractions, just the information you need to complete your quests efficiently.
         I've also designed it to maintain a more classic/old-school look to fit the game! (Also mobile friendly!)
         </p><br>
-        <img src="delrith.webp"><br>
+        <img src="img/delrith.webp"><br>
         <h3>Effective F2P money making</h3>
         <p>
         A problem you might encounter during your journey is money, but I have you covered!
@@ -65,7 +65,7 @@ try {
         and might not even be worth it in the end. That's why I am going to share one of the most reliable
         and my most used method to make GP!
         </p>
-        <img src="Coins.webp">
+        <img src="img/Coins.webp">
     </main>
 </body>
 </html>

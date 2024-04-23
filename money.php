@@ -30,8 +30,8 @@ try {
     
     <nav class="navbar">
         <ul>
-            <li><img src="logo.png" alt=""></li>
-            <li><a href="index.php">Home</a></li>
+            <li><img src="img/logo.png" alt=""></li>
+            <li><a href="img/index.php">Home</a></li>
             <li><a href="logout.php">Log Out</a></li>
             <li><a href="quests.php">Quests</a></li>
             <li><a href="money.php">Money Making</a></li>
@@ -48,20 +48,20 @@ try {
         Altough you do need at least level 15 in mining but that should only take you about an hour or so to achieve so you can use this method very early on
         to make some quick and easy GP.
     </p>
-    <img src="Iron_ore_detail.webp">
+    <img src="img/Iron_ore_detail.webp">
     <h3>Smelting Iron Bars</h3>
     <p>You could either sell the iron ore, or smelt it to make iron bars. 
         Even though it might not be as profitable, it will also help you farm XP for Smithing,
         wich could be useful later on, such as smithing your own armor! A Ring of forging
         is recommended because, if a player smelts iron ore while wearing the ring, it gives a 100% success rate of creating an iron bar.
     </p>
-    <img src="Iron_bar_detail.webp">
+    <img src="img/Iron_bar_detail.webp">
     <h3>Killing imps</h3>
     <p>If you've completed the Imp Catcher quest you would know how profitable this can end up being.
         The drop rates on their beads is pretty rare, about 1 in 25 for any one of them. Because of the drop rates, some people 
         doing the Imp Catcher quest might become impaitent and go to the grand exchange to buy them. That's why you will farm imps for beads and then proceed to sell them at the grand exchange.
     </p>
-    <img src="Imp.webp"><br>
+    <img src="img/Imp.webp"><br>
     <h2>Risky Method</h2>
     <h3>Killing Lava Dragons</h3>
     <p>This method is the one I have used the most and the method I used to get my first million!
@@ -70,7 +70,7 @@ try {
         That's why this method is risky. Each dragon drops lava dragon bones and black dragonhide wich together sell for almost 8k gp right now. But, there is a chance you get a rare drop,
         like Onyx bolt tips! Wich currently sell for 100k!
     </p>
-    <img src="lavadragon.webp">
+    <img src="img/lavadragon.webp">
     </main>
 </body>
 </html>

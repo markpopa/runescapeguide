@@ -51,7 +51,7 @@ try {
 <body class="bodyquests">
     <nav class="navbar">
         <ul>
-            <li><img src="logo.png" alt=""></li>
+            <li><img src="img/logo.png" alt=""></li>
             <li><a href="index.php">Home</a></li>
             <li><a href="logout.php">Log Out</a></li>
             <li><a href="quests.php">Quests</a></li>
