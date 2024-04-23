@@ -35,13 +35,6 @@ CREATE TABLE `banned` (
   `banned_by` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `banned`
---
-
-INSERT INTO `banned` (`player_id`, `username`, `reason`, `ban_date`, `banned_by`) VALUES
-(20, 'gainul', 'His password is monke', '2024-04-15 12:39:58', 'riot (admin)');
-
 -- --------------------------------------------------------
 
 --
@@ -103,8 +96,6 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `username`, `password`) VALUES
-(1, 'riot', 'wordpass123'),
-(20, 'gainul', 'monke'),
 (31, 'Mark', 'wordpass123');
 
 --
