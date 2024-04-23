@@ -24,20 +24,20 @@
 }
 
 .bodycontainer {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(193, 149, 84, 0.7)), url("background2.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(193, 149, 84, 0.7)), url("bg/background2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bodyquests {
-    background: linear-gradient(to right, rgba(193, 149, 84, 0.7), rgba(193, 149, 84, 0.7)), url("background3.webp");
+    background: linear-gradient(to right, rgba(193, 149, 84, 0.7), rgba(193, 149, 84, 0.7)), url("bg/background3.webp");
     background-position: center;
     background-size: cover;
 }
 
 .bodydetail {
-    background: linear-gradient(to right, rgba(193, 149, 84, 0.7), rgba(193, 149, 84, 0.7)), url("questdetail.png");
+    background: linear-gradient(to right, rgba(193, 149, 84, 0.7), rgba(193, 149, 84, 0.7)), url("bg/questdetail.png");
     background-position: center;
     background-size: cover;
 }
@@ -47,14 +47,14 @@
 }
 
 .bodymoney {
-    background: linear-gradient(to right, rgba(193, 149, 84, 0.7), rgba(193, 149, 84, 0.7)), url("background.jpg");
+    background: linear-gradient(to right, rgba(193, 149, 84, 0.7), rgba(193, 149, 84, 0.7)), url("bg/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bodyinfo {
-    background: linear-gradient(to right, rgba(193, 149, 84, 0.7), rgba(193, 149, 84, 0.7)), url("background6.jpeg");
+    background: linear-gradient(to right, rgba(193, 149, 84, 0.7), rgba(193, 149, 84, 0.7)), url("bg/background6.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,7 +65,7 @@
 }
 
 .bodylog {
-    background-image: url("login.jpg");
+    background-image: url("bg/login.jpg");
     background-position: center;
     background-size: cover;
 }
