@@ -1,6 +1,7 @@
 <?php 
 
 session_start();
+
 if (!isset($_SESSION['password']) || !isset($_SESSION['username'])) {
     header("location: login.php");
 }
@@ -16,7 +17,6 @@ try {
 } catch (PDOException $e) {
     echo "Databasefout: " . $e->getMessage();
 }
-
 
 $host = "localhost";
 $username = "bit_academy";
@@ -63,21 +63,21 @@ try {
     <h1>F2P Quest List</h1>
 
     <main>
-    <h2>Quests</h2>
-    <table>
-        <tr>
-            <th>Quest Name</th>
-            <th>Description</a></th>
-            <th>Guide</th>
-        </tr>
-        <?php foreach ($Query as $quests) { ?>
+        <h2>Quests</h2>
+        <table>
             <tr>
-                <td><?php echo $quests["quest_name"]; ?></td>
-                <td><?php echo $quests["quest_description"]; ?></td>
-                <td><a href='detail.php?id=<?php echo $quests['quest_id']; ?>'>View Guide</a></td>
+                <th>Quest Name</th>
+                <th>Description</th>
+                <th>Guide</th>
             </tr>
-        <?php } ?>
-    </table>
+            <?php foreach ($Query as $quests) { ?>
+                <tr>
+                    <td><?php echo $quests["quest_name"]; ?></td>
+                    <td><?php echo $quests["quest_description"]; ?></td>
+                    <td><a href='detail.php?id=<?php echo $quests['quest_id']; ?>'>View Guide</a></td>
+                </tr>
+            <?php } ?>
+        </table>
     </main>
 </body>
 </html>

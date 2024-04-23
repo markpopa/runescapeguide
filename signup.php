@@ -19,14 +19,12 @@ try {
         if (empty($_POST["username"]) || empty($_POST["password"])) {  
             $message = 'All fields are required'; 
         } else {
-            $sql = "INSERT INTO users (username, password) 
-            VALUES ('$user', '$pass')";
+            $sql = "INSERT INTO users (username, password) VALUES ('$user', '$pass')";
             if ($connect->exec($sql)) {
-                echo "<h1>Sign Up Succesful</h1>";
+                echo "<h1>Sign Up Successful</h1>";
             } else {
                 echo "<h1>Sign Up error</h1>";
             }
-
         }
     }
 } catch (PDOException $error) {  
@@ -36,10 +34,11 @@ try {
 
 <!DOCTYPE html>
 <html lang="en">
+<head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Sign Up</title>
 </head>
 <body class="bodylog">  
     <?php  
@@ -48,13 +47,13 @@ try {
     }  
     ?>  
     <main class="log">
-    <h3>Sign Up</h3><br/>  
-    <form class="signup" action="signup.php" method="post">
-        <input type="text" name="username" placeholder="Username"/>
-        <input type="password" name="password" placeholder="Password"/><br><br>
-        <input type="submit" name="signup" id="signup" value="Sign Up"/><br>
-        <a href="login.php">Log In</a>
-    </form>  
+        <h3>Sign Up</h3><br/>  
+        <form class="signup" action="signup.php" method="post">
+            <input type="text" name="username" placeholder="Username"/>
+            <input type="password" name="password" placeholder="Password"/><br><br>
+            <input type="submit" name="signup" id="signup" value="Sign Up"/><br>
+            <a href="login.php">Log In</a>
+        </form>  
     </main>
 </body> 
 </html>

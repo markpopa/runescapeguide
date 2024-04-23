@@ -6,7 +6,7 @@ $host = "localhost";
 $username = "bit_academy";
 $password = " ";
 $dbname = "runescape";
-$message = "";  
+$message = "";
 
 try {  
     $connect = new PDO("mysql:host=$host; dbname=$dbname", $username, $password);  
@@ -42,6 +42,7 @@ try {
 } catch (PDOException $error) {  
     $message = $error->getMessage();  
 }  
+
 ?>  
 
 <!DOCTYPE html>
@@ -60,13 +61,13 @@ try {
     ?>  
     <div class="log-image"></div>
     <main class="log">
-    <h3>Log In</h3><br/>  
-    <form class="login" method="post">
-        <input type="text" name="username" placeholder="Username"/>
-        <input type="password" name="password" placeholder="Password"/><br><br>
-        <input type="submit" name="login" id="login" value="Log In"/><br>
-        <a href="signup.php">Click here to sign up!</a>
-    </form>  
+        <h3>Log In</h3><br/>  
+        <form class="login" method="post">
+            <input type="text" name="username" placeholder="Username"/>
+            <input type="password" name="password" placeholder="Password"/><br><br>
+            <input type="submit" name="login" id="login" value="Log In"/><br>
+            <a href="signup.php">Click here to sign up!</a>
+        </form>  
     </main>
 </body> 
 </html>
