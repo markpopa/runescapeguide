@@ -1,18 +1,31 @@
-# Old School Runescape F2P Quest Guide
+# ⚔️ Old School Runescape F2P Quest Guide
 
-## Description
-Old School Runescape F2P Quest Guide is a project dedicated to providing simple guides for Free-to-Play quests in Old School RuneScape. 
+### 📜 Project Overview
+This project is a dedicated hub for Free-to-Play (F2P) players in Old School RuneScape (OSRS). It provides streamlined, easy-to-follow walkthroughs for all F2P quests, helping players progress through the game efficiently.
 
-## Features
-- Simple and quick quest walkthroughs
-- Information on map areas
-- Tips and strategies for making money
-- Login/Signup feature
+### 💻 Tech Stack
+* **Backend:** PHP
+* **Database:** SQL (for quest data and user authentication)
+* **Frontend:** HTML/CSS (with a navigation-focused UI)
 
-## Usage
-After making an account and logging in, there is a navigation bar at the top of the website for quick and easy access to a quest list, money making tips/guides, and useful information about the accessible map areas for an F2P player.
+### 🚀 Key Features
+* **Quest Walkthroughs:** Quick and simple guides to get those quest points fast.
+* **Wealth Management:** Dedicated tips and strategies for making gold (GP) in F2P.
+* **World Knowledge:** Detailed information about accessible map areas for non-members.
+* **User Accounts:** Secure Login/Signup system to personalize your experience.
 
-The quest list, guides, and user authentication are powered by PHP and SQL databases. 
+### 🧠 What I Learned
+* **Full-Stack Integration:** How to connect a PHP backend with an SQL database to serve dynamic quest data.
+* **Authentication Logic:** Implementing a secure user session for the login and signup features.
+* **Content Management:** Organizing large amounts of game data (quests, maps, tips) into a user-friendly navigation system.
 
-## Credits
-- OSRS Wiki for quest data
+### 🛠️ Usage
+1.  **Register:** Create an account using the Signup feature.
+2.  **Login:** Access your dashboard to see the full list of guides.
+3.  **Navigate:** Use the top navigation bar to switch between:
+    * **Quest List:** Step-by-step guides.
+    * **Money Making:** Strategies to build your bank.
+    * **Map Info:** Useful locations and tips.
+
+### 🤝 Credits
+* **OSRS Wiki:** For providing the comprehensive quest data used in this project.
